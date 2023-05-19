@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
-const PORT = 8080;
+const PORT = "https://ecommerce-mini-project.vercel.app/" || 8080;
 const app  = express();
 const cors = require('cors');
 const json = require('body-parser').json;

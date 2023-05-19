@@ -39,7 +39,7 @@ const Cart = new mongoose.model('Cart',cartSchema);
   main().catch(err => console.log(err));
 
   async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/test');
+    await mongoose.connect('mongodb+srv://manusid2001:SylviaMongo-3130@cluster0.q6kfcfq.mongodb.net/test');
     console.log('Server Connected');
     // Write Code Here
 }
